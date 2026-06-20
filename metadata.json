@@ -1,0 +1,6 @@
+{
+  "name": "Pallavi Tea and Trading Company",
+  "description": "Premium tea sourcing, sampling, and bulk trading platform. Delivering exquisite teas directly from India's finest curated gardens.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
