@@ -87,10 +87,10 @@ export default function About() {
 
             <div className="space-y-4 text-xs sm:text-sm text-neutral-600 leading-relaxed font-sans">
               <p>
-                <strong>Pallavi Tea and Trading Company</strong> stands as a trusted name in the tea broking industry, with a legacy built on expertise, integrity, and strong market relationships. Established in 1999, and headquartered in Assam, the heart of India’s tea industry, the company has grown steadily over the past 27 years under the leadership of <strong>Ashok Saboo</strong> and <strong>Govind Saboo</strong>.
+                <strong>Pallavi Tea and Trading Company is a trusted name in the tea broking industry. It is known for its experience, honesty, and strong connections in the market. The company was started in 1999 and is based in Assam, the heart of India’s tea industry. Over the past 27 years, it has grown steadily under the leadership of Ashok Saboo and Govind Saboo.</strong>.
               </p>
               <p>
-                With deep-rooted knowledge of the Assam tea market, our firm plays a vital role in connecting premier tea producers with leading buyers across the country and beyond.
+                With a strong understanding of the Assam tea market, the company helps connect top tea producers with major buyers across India and other countries.
               </p>
 
             </div>
@@ -101,15 +101,13 @@ export default function About() {
               <div className="space-y-1.5">
                 <h4 className="font-serif font-bold text-sm text-black">Our Expertise</h4>
                 <p className="text-neutral-500 text-xs leading-relaxed">
-                  We specialize in tea broking, facilitating seamless transactions between tea estates and a wide network of buyers including packeters, wholesalers, and exporters. Alongside broking, we offer professional tea testing and valuation, ensuring accurate quality assessment and fair pricing in every transaction.
-
-Our operations span from signature premium grades to high-volume commercial trades, allowing us to cater to diverse market requirements with precision and consistency.
+                  We specialize in tea broking, helping tea estates connect easily with buyers such as packeters, wholesalers, and exporters. Along with broking, we also provide tea testing and valuation to check quality and ensure fair pricing in every deal. We handle both premium quality teas and large-volume orders, allowing us to meet different market needs with accuracy and consistency.
                 </p>
               </div>
               <div className="space-y-1.5">
                 <h4 className="font-serif font-bold text-sm text-black">Market Presence</h4>
                 <p className="text-neutral-500 text-xs leading-relaxed">
-                  Our strength lies in our direct and private engagement with leading tea gardens and factories across Assam. By working closely at the source, we facilitate efficient and well-aligned transactions between producers and buyers. This approach allows us to maintain flexibility, ensure competitive pricing, and deliver consistent quality while building strong, long-term relationships across the tea supply chain.
+                  Our strength comes from working directly and closely with top tea gardens and factories across Assam. By staying connected at the source, we make transactions between producers and buyers smooth and efficient. This helps us offer better prices, maintain good quality, and build strong, long-term relationships across the tea supply chain.
                 </p>
               </div>
             </div>
@@ -149,10 +147,7 @@ Our operations span from signature premium grades to high-volume commercial trad
                 <div className="p-1.5 bg-neutral-50 rounded-lg text-[#D4AF37]">
                   <Shield className="w-4 h-4" />
                 </div>
-                <div className="text-left">
-                  <h5 className="text-[11px] font-bold text-black">GTAC Member Broker</h5>
-                  <p className="text-[10px] text-neutral-400">Guwahati Tea Auction Centre</p>
-                </div>
+                
               </div>
             </motion.div>
           </div>
@@ -166,7 +161,7 @@ Our operations span from signature premium grades to high-volume commercial trad
             <span className="text-[#D4AF37] font-sans font-bold tracking-widest uppercase text-xs">Our Advantage</span>
             <h2 className="text-3xl font-serif font-black text-black mt-1">Our Strengths & Attributes</h2>
             <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed mt-2">
-              Our growth over the decades is anchored on consistent delivery, deep sourcing relations, and pristine standard compliance.
+              Our growth over the years is based on reliable service, strong relationships with tea sources, and maintaining high quality standards.
             </p>
           </div>
 
@@ -195,14 +190,14 @@ Our operations span from signature premium grades to high-volume commercial trad
           <div className="bg-white border border-neutral-200 p-8 rounded-2xl space-y-3 shadow-xs">
             <span className="text-lg font-serif font-bold text-black block">Our Approach</span>
             <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed font-sans">
-              At Pallavi Tea and Trading Company, we believe that trust and transparency are the foundation of successful trade. Our approach is built on long-term relationships, ethical practices, and a deep, scientific understanding of the regional tea ecosystems.
+              At Pallavi Tea and Trading Company, we believe trust and transparency are key to good business. We focus on building long-term relationships, following honest practices, and understanding the local tea environment in a practical way.
             </p>
           </div>
 
           <div className="bg-white border border-neutral-200 p-8 rounded-2xl space-y-3 shadow-xs">
             <span className="text-lg font-serif font-bold text-black block">Our Vision</span>
             <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed font-sans">
-              Our vision is to expand our presence and continue growing as a reliable and respected name in the tea broking sector, while maintaining the rigorous standards of excellence and market alignment that define our daily operations.
+              Our vision is to grow and expand our presence while remaining a trusted and respected name in the tea broking industry. We aim to maintain high standards and stay aligned with market needs in everything we do.
             </p>
           </div>
         </div>
