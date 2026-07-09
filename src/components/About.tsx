@@ -143,12 +143,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="bg-white border border-neutral-200/80 p-3.5 rounded-2xl flex items-center gap-3">
-                <div className="p-1.5 bg-neutral-50 rounded-lg text-[#D4AF37]">
-                  <Shield className="w-4 h-4" />
-                </div>
-                
-              </div>
+              
             </motion.div>
           </div>
         </div>
