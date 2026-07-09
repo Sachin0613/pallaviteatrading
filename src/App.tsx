@@ -263,7 +263,7 @@ export default function App() {
                 <h3 className="text-2xl font-serif font-black tracking-widest text-black">PALLAVI</h3>
               </div>
               <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed">
-                Serving the Assam merchant community with premium CTC teas and customized blends sourced directly from renowned regional estates. Every batch is carefully curated to ensure authenticity and consistent client standards.
+                Serving the Assam merchant community with premium teas and customized blends sourced directly from renowned regional estates. Every batch is carefully curated to ensure authenticity and consistent client standards.
                  </p>
               <div className="flex gap-3 pt-3">
                 <a href="https://www.facebook.com/share/18qrxpXpD6/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 bg-neutral-50 border border-neutral-200 hover:bg-black hover:text-white text-neutral-600 rounded-lg flex items-center justify-center cursor-pointer duration-300 shadow-xs">
