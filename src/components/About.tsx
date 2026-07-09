@@ -87,7 +87,7 @@ export default function About() {
 
             <div className="space-y-4 text-xs sm:text-sm text-neutral-600 leading-relaxed font-sans">
               <p>
-                <strong>Pallavi Tea and Trading Company is a trusted name in the tea broking industry. It is known for its experience, honesty, and strong connections in the market. The company was started in 1999 and is based in Assam, the heart of India’s tea industry. Over the past 27 years, it has grown steadily under the leadership of Ashok Saboo and Govind Saboo.</strong>.
+                Pallavi Tea and Trading Company is a trusted name in the tea broking industry. It is known for its experience, honesty, and strong connections in the market. The company was started in 1999 and is based in Assam, the heart of India’s tea industry. Over the past 27 years, it has grown steadily under the leadership of Ashok Saboo and Govind Saboo.
               </p>
               <p>
                 With a strong understanding of the Assam tea market, the company helps connect top tea producers with major buyers across India and other countries.
