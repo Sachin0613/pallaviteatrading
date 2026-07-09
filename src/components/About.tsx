@@ -7,7 +7,7 @@ export default function About() {
   const strengths = [
     {
       title: "27+ Years of Sourcing",
-      desc: "Deep industry expertise since establishment in 1999, guiding market insights and trade excellence.",
+      desc: "Since 1999, we have built strong industry experience that helps us understand the market and deliver quality service.",
       icon: <History className="w-5 h-5 text-[#D4AF37]" />
     },
     {
@@ -17,7 +17,7 @@ export default function About() {
     },
     {
       title: "128 Associated Gardens",
-      desc: "Close associations at the source, securing unmatched quality, reliability, and value direct from the plantation.",
+      desc: "We work closely with tea gardens to ensure good quality, reliable supply, and fair value directly from the source.",
       icon: <Leaf className="w-5 h-5 text-[#D4AF37]" />
     },
     {
@@ -27,7 +27,7 @@ export default function About() {
     },
     {
       title: "4 Lakh KG Daily Sales Sourcing Capacity",
-      desc: "Massive scale capacity to serve the most intensive buyer volumes reliably and seamlessly.",
+      desc: "We can handle large orders easily and supply big buyers smoothly and reliably.",
       icon: <Shield className="w-5 h-5 text-[#D4AF37]" />
     },
     {
