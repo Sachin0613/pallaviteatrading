@@ -117,8 +117,7 @@ export default function Home({ onNavigate }: HomeProps) {
           <h2 className="text-3xl sm:text-4xl font-serif font-black text-black mt-2 mb-6">Expertise, Integrity, and Solid Networks</h2>
           
           <div className="text-brand-charcoal/85 space-y-4 max-w-3xl mx-auto text-center leading-relaxed font-sans text-sm sm:text-base">
-            <p>
-              Pallavi Tea and Trading Company, established in 1999, is a trusted tea broking firm based in Assam with over 27 years of industry experience. Working closely with 128 tea gardens and major buyers including Tata, Hindustan Lever, and Wagh Bakri, the company specializes in both premium and high-volume tea transactions. As active participants in the Guwahati Tea Auction Centre (GTAC), they ensure reliable, transparent, and efficient trade across the tea market.
+            <p>Pallavi Tea and Trading Company, established in 1999, is a trusted tea broking firm based in Assam with over 27 years of experience in the tea industry. The company works closely with 128+ tea gardens, factories and specializes in handling both premium quality teas and large volume orders. It ensures reliable, smooth, and transparent transactions across the tea market.
             </p>
           </div>
 
