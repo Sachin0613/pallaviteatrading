@@ -308,6 +308,7 @@ export default function SampleRequestForm({
                     <option value="DUST">DUST (Finest Dust)</option>
                     <option value="SECONDARY">SECONDARY (Secondary Grade)</option>
                     <option value="OTHER">Other Custom Request</option>
+                    <option value="ALL">All</option>
                   </select>
                   {errors.grade && (
                     <div className="flex items-center gap-1 text-xs text-red-500 mt-1">
