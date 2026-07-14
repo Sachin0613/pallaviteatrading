@@ -260,7 +260,7 @@ export default function App() {
             {/* Col 1: Brand & Logo */}
             <div className="md:col-span-4 space-y-4">
               <div className="flex items-center gap-2.5">
-                <h3 className="text-2xl font-serif font-black tracking-widest text-black">PALLAVI</h3>
+                <h3 className="text-2xl font-serif font-black tracking-widest text-black">PALLAVI TEA & TRADING CO.</h3>
               </div>
               <p className="text-neutral-500 text-xs sm:text-sm leading-relaxed">
                 Serving the Assam merchant community with premium teas and customized blends sourced directly from renowned regional estates. Every batch is carefully curated to ensure authenticity and consistent client standards.
