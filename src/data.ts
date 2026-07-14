@@ -106,7 +106,7 @@ export const PARTNER_GARDENS: PartnerGarden[] = [
   {
   id: "laluk-tea-factory",
   name: "Laluk Tea Factory",
-  location: "Mark-Laluk, Lakhimpur",
+  location: "Mark: Laluk, Lakhimpur",
   teaTypes: ["Assam Black Tea", "CTC Tea", "Premium Blend"],
   description: "Known for its strong liquor and consistent quality, Laluk teas offer a bold and dependable cup.",
   emoji: "🍃"
@@ -114,7 +114,7 @@ export const PARTNER_GARDENS: PartnerGarden[] = [
 {
   id: "habung-tea-industries",
   name: "Habung Tea Industries",
-  location: "Mark-Habung, Dhemaji",
+  location: "Mark: Habung, Dhemaji",
   teaTypes: ["Assam Black Tea", "CTC Tea", "Daily Blend"],
   description: "Produces bright and brisk teas with a clean finish, ideal for refreshing daily blends.",
   emoji: "🌿"
@@ -122,7 +122,7 @@ export const PARTNER_GARDENS: PartnerGarden[] = [
 {
   id: "maibelia-tea-industry",
   name: "Maibelia Tea Industry",
-  location: "Mark-Dissoi Valley, Jorhat",
+  location: "Mark: Dissoi Valley, Jorhat",
   teaTypes: ["Orthodox Tea", "Assam Black Tea", "Premium Blend"],
   description: "Offers well-rounded teas with rich aroma and smooth malty character from prime Jorhat estates.",
   emoji: "🍂"
@@ -130,7 +130,7 @@ export const PARTNER_GARDENS: PartnerGarden[] = [
 {
   id: "kanchan-tea-industry",
   name: "Kanchan Tea Industry",
-  location: "Mark-Kanchan, Koliabor",
+  location: "Mark: Kanchan, Koliabor",
   teaTypes: ["Assam Black Tea", "CTC Tea", "Premium Blend"],
   description: "Known for balanced strength and subtle sweetness, delivering a refined and smooth cup.",
   emoji: "🌱"
@@ -138,7 +138,7 @@ export const PARTNER_GARDENS: PartnerGarden[] = [
 {
   id: "gangmou-tea-growers",
   name: "Gangmou Tea Growers",
-  location: "Mark-Gangmou, Biswanath Charali",
+  location: "Mark: Gangmou, Biswanath Charali",
   teaTypes: ["Assam Black Tea", "CTC Tea", "Loose Leaf Tea"],
   description: "Produces lively teas with vibrant color and a brisk, refreshing taste profile.",
   emoji: "🍵"
@@ -146,7 +146,7 @@ export const PARTNER_GARDENS: PartnerGarden[] = [
 {
   id: "belseri-tea-estate",
   name: "Belseri Tea Estate",
-  location: "Mark-Belseri, Dekiajuli",
+  location: "Mark: Belseri, Dekiajuli",
   teaTypes: ["Assam Black Tea", "Orthodox Tea", "Premium Blend"],
   description: "Produces bright, brisk teas with a clean and refreshing finish.",
   emoji: "🌾"
