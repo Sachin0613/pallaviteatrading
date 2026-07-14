@@ -182,7 +182,7 @@ We act as a trusted link between buyers and some of India’s well-known tea est
   {
     id: "inspection",
     title: "Quality Inspection",
-    description: "Rigorous quality assessment before packaging and supply.",
+    description: "Careful quality checks before packaging and supply.",
     detailedDescription: "Our quality standards are uncompromising. Every batch of tea is thoroughly evaluated in our testing room, focusing on appearance, liquor, taste, and infusion before it is approved for dispatch.",
     icon: "✅"
   },
