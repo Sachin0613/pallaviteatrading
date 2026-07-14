@@ -153,7 +153,7 @@ export default function Home({ onNavigate }: HomeProps) {
             {/* Portal header inside wide box */}
             <div className="text-center pb-4 border-b border-brand-green/10 mb-4 shrink-0 relative z-10">
               <span className="text-brand-gold uppercase text-[10px] tracking-widest font-bold">Press controls to explore</span>
-              <h3 className="text-lg font-serif font-bold text-brand-green mt-0.5">Top Estates Chamber</h3>
+              <h3 className="text-lg font-serif font-bold text-brand-green mt-0.5">Top Factories Chamber</h3>
             </div>
 
             {/* Inner Content Area containing Scroll elements and navigation triggers */}
