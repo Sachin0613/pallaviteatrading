@@ -184,21 +184,21 @@ As dedicated brokers, we ensure transparent, efficient, and well-negotiated tran
     id: "inspection",
     title: "Quality Inspection",
     description: "Rigorous quality assessment before packaging and supply.",
-    detailedDescription: "Our quality standard is absolute. Every single batch of tea procured is subjected to rigorous quality check criteria, evaluating leaf structure, moisture retention levels, liquor clarity, and flavour consistency in our cupping labs before it is greenlit for dispatch.",
+    detailedDescription: "Our quality standards are uncompromising. Every batch of tea is thoroughly evaluated in our testing room, focusing on appearance, liquor, taste, and infusion before it is approved for dispatch.",
     icon: "✅"
   },
   {
     id: "bulk-supply",
     title: "Bulk Supply",
     description: "Large-scale tea distribution and trading with flexible volumes.",
-    detailedDescription: "From 100 kg wooden chests to multi-ton container shipments, we command logistics networks capable of packaging, containerizing, and shipping premium tea anywhere globally, while preserving maximum freshness using custom-engineered inner foil liners and vacuum sealing.",
+    detailedDescription: "From PPE and paper sack bags to multi-ton container shipments, we manage efficient logistics for packaging, containerizing, and shipping tea across markets while maintaining freshness through secure and reliable packing methods.",
     icon: "📦"
   },
   {
   id: "tea-tasting",
   title: "Tea Tasting",
   description: "Professional evaluation of tea flavor, aroma, and quality.",
-  detailedDescription: "We offer professional tea tasting services to evaluate the true character of each batch. Our experts assess flavor, aroma, strength, and overall quality, providing clear insights into the tea's profile and helping you make informed purchasing decisions.",
+  detailedDescription: "We offer professional tea tasting to understand the true character of each batch. Our experts evaluate the flavor, aroma, strength, and overall quality, giving you clear insights so you can make confident buying decisions.",
   icon: "🍵"
 },
 {
