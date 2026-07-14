@@ -189,9 +189,9 @@ export default function SampleRequestForm({
                   className="absolute inset-0 bg-white/95 z-20 flex flex-col justify-center items-center p-6 text-center rounded-2xl"
                 >
                   <CheckCircle className="w-16 h-16 text-emerald-600 mb-4 filter drop-shadow animate-bounce" />
-                  <h3 className="text-2xl font-serif font-black text-emerald-600 mb-2">Sample Request Send!</h3>
+                  <h3 className="text-2xl font-serif font-black text-emerald-600 mb-2">Sample Request Sent!</h3>
                   <p className="text-black/80 text-sm max-w-sm mb-6 font-semibold bg-emerald-50 border border-emerald-100 rounded-xl px-4 py-3">
-                    ✓ sample request sent, will get in touch soon
+                    Will get in touch soon
                   </p>
                   <button
                     id="close-success-message-button"
