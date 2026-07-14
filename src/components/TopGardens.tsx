@@ -20,63 +20,63 @@ const TOP_GARDENS = [
   {
   id: 1,
   name: "Laluk Tea Factory",
-  location: "Mark-Laluk, Lakhimpur",
+  location: "Mark: Laluk, Lakhimpur",
   image: logo1,
   description: "Known for its strong liquor and consistent quality, Laluk teas offer a bold and dependable cup."
 },
 {
   id: 2,
   name: "Habung Tea Industries",
-  location: "Mark-Habung, Dhemaji",
+  location: "Mark: Habung, Dhemaji",
   image: logo2,
   description: "Produces bright and brisk teas with a clean finish, ideal for refreshing daily blends."
 },
 {
   id: 3,
   name: "Maibelia Tea Industry",
-  location: "Mark-Dissoi Valley, Jorhat",
+  location: "Mark: Dissoi Valley, Jorhat",
   image: logo3,
   description: "Offers well-rounded teas with rich aroma and smooth malty character from prime Jorhat estates."
 },
 {
   id: 4,
   name: "Kanchan Tea Industry",
-  location: "Mark-Kanchan, Koliabor",
+  location: "Mark: Kanchan, Koliabor",
   image: logo4,
   description: "Known for balanced strength and subtle sweetness, delivering a refined and smooth cup."
 },
 {
   id: 5,
   name: "Gangmou Tea Growers",
-  location: "Mark-Gangmou, Biswanath Charali",
+  location: "Mark: Gangmou, Biswanath Charali",
   image: logo5,
   description: "Produces lively teas with vibrant color and a brisk, refreshing taste profile."
 },
 {
   id: 6,
   name: "Belseri Tea Estate",
-  location: "Mark-Belseri, Dekiajuli",
+  location: "Mark: Belseri, Dekiajuli",
   image: logo6,
   description: "Produces bright, brisk teas with a clean and refreshing finish."
 },
   {
   id: 7,
   name: "Puri Premium Tea",
-  location: "Mark-Lakhimpur, Assam",
+  location: "Mark: Lakhimpur, Assam",
   image: logo7,
   description: "Specializes in high-grade teas with deep color, strong body, and premium consistency."
 },
 {
   id: 8,
   name: "BTR Tea Industries",
-  location: "Mark-Udalguri, Assam",
+  location: "Mark: Udalguri, Assam",
   image: logo8,
   description: "Known for smooth yet strong teas with a pleasant aroma and balanced flavor."
 },
 {
   id: 9,
   name: "Patkai Tea Co. (P) Ltd",
-  location: "Mark-Tinsukia, Assam",
+  location: "Mark: Tinsukia, Assam",
   image: logo9,
   description: "Delivers bold, full-bodied teas with deep liquor and a lasting malty richness."
 }
