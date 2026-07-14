@@ -142,7 +142,7 @@ export default function Home({ onNavigate }: HomeProps) {
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-green mt-2">Top Tea Gardens</h2>
             <div className="w-16 h-1 bg-brand-gold mx-auto mt-4 rounded-full" />
             <p className="text-brand-charcoal/70 mt-4 max-w-xl mx-auto">
-              Explore our select network of world-renowned gardens, each boasting a unique terroir and generations of award-winning cultivation.
+              Explore our carefully selected tea gardens, each known for its unique growing conditions and years of expert cultivation.
             </p>
           </div>          {/* The wide box viewport holding self-scrollable List of Gardens (exactly 2 side-by-side on desktop) */}
           <div className="w-full max-w-4xl mx-auto bg-brand-cream/35 border-2 border-brand-green/15 rounded-3xl shadow-xl flex flex-col p-6 sm:p-8 relative overflow-hidden group min-h-[460px]">
@@ -246,7 +246,7 @@ export default function Home({ onNavigate }: HomeProps) {
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-brand-green mt-2">Our B2B services</h2>
             <div className="w-16 h-1 bg-brand-gold mx-auto mt-4 rounded-full" />
             <p className="text-brand-charcoal/70 mt-4 max-w-xl mx-auto">
-              From harvesting to final worldwide distribution, our full suite of professional trading solutions covers all your requirements.
+              From sourcing to final delivery, our professional services cover all your needs.
             </p>
           </div>
 
@@ -287,7 +287,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 <span className="text-brand-gold font-sans font-bold uppercase text-xs tracking-wider">Ready to elevate your supply?</span>
                 <h2 className="text-2xl sm:text-3xl font-serif font-bold mt-2 mb-4">Partner with India's Tea Experts</h2>
                 <p className="text-brand-cream/80 text-sm leading-relaxed mb-6">
-                  Get in touch with our team today to evaluate grades, request bespoke packaging options, or procure custom volumes. We deliver values that last.
+                 Contact our team to check tea grades, request custom packaging, or order the quantity you need. We deliver reliable value.
                 </p>
 
                 <div className="space-y-3.5 text-sm">
