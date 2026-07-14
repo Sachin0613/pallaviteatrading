@@ -319,7 +319,7 @@ export default function App() {
                   <MapPin className="w-4 h-4 text-neutral-400 shrink-0 mt-0.5 group-hover/footermap:text-black" />
                   <div>
                     <span className="text-neutral-605 block leading-snug group-hover/footermap:underline">
-                      Pallavi Tea & Trading Co., House no. 10, Bylane no. 1, Rehabari, Guwahati, Assam - 781008, India
+                      Pallavi Tea & Trading Co., House No. 10, Bylane no. 1, Rehabari, Guwahati, Assam - 781008, India
                     </span>
                     <span className="block text-[11px] font-bold text-neutral-800 mt-1 uppercase tracking-wider">
                       📍 Open Live Location ↗
