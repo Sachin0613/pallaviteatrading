@@ -200,7 +200,7 @@ export default function About() {
         {/* EPILOGUE STATEMENT */}
         <div className="mt-16 text-center max-w-2xl mx-auto border-t border-neutral-200 pt-10">
           <p className="text-neutral-700 italic font-serif text-sm sm:text-base leading-relaxed">
-            "At Pallavi Tea and Trading Company, we don’t just broker tea; we build enduring partnerships that move the industry forward."
+            As a trusted tea brokerage, we work closely with renowned tea estates and factories across Assam to source premium CTC teas that match your requirements. Our extensive network enables us to deliver exceptional quality at the best possible prices.
           </p>
           <div className="flex gap-2.5 items-center justify-center mt-4">
             <div className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]" />
