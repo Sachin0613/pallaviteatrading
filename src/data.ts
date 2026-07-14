@@ -159,9 +159,8 @@ export const SERVICES: ServiceItem[] = [
   title: "Tea Broking",
   description: "Buying and selling premium tea directly from source gardens.",
   detailedDescription: `
-We act as your trusted bridge to India's most prestigious tea estates. Through our deep-rooted and long-standing associations with leading tea gardens, we facilitate the buying and selling of raw and graded teas at highly competitive prices.
+We act as a trusted link between buyers and some of India’s well-known tea estates and factories. With strong, long standing relationships across leading tea gardens, we help you buy and sell raw and graded teas at competitive prices. As dedicated brokers, we ensure smooth, transparent, and well-negotiated deals, helping packeters, wholesalers, and exporters get consistent quality and a reliable supply without having to deal directly with the trade.
 
-As dedicated brokers, we ensure transparent, efficient, and well-negotiated transactions, helping tea packeters, wholesalers, and global exporters secure consistent quality and reliable supply without directly engaging in trade.
 `,
 
   icon: "🔄"
