@@ -131,15 +131,15 @@ export default function About() {
               <div className="space-y-4">
                 <div className="border-b border-neutral-200/60 pb-3">
                   <span className="text-[10px] text-neutral-400 tracking-widest uppercase block">Estates Assosiated</span>
-                  <span className="text-3xl font-serif font-bold text-black">128 Gardens & Factories</span>
+                  <span className="text-3xl font-bold text-black">128 Gardens & Factories</span>
                 </div>
                 <div className="border-b border-neutral-200/60 pb-3">
                   <span className="text-[10px] text-neutral-400  tracking-widest uppercase block">Daily Sales Volume</span>
-                  <span className="text-3xl font-serif font-bold text-black">2.5 Lakh Kgs</span>
+                  <span className="text-3xl font-bold text-black">2.5 Lakh Kgs</span>
                 </div>
                 <div>
                   <span className="text-[10px] text-neutral-400 tracking-widest uppercase block">Establishment Year</span>
-                  <span className="text-3xl font-serif font-bold text-black">1999</span>
+                  <span className="text-3xl font-bold text-black">1999</span>
                 </div>
               </div>
 
