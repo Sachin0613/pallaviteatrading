@@ -153,7 +153,7 @@ export default function Services({ onInquireService }: ServicesProps) {
           <HelpCircle className="w-10 h-10 text-brand-gold mx-auto" />
           <h2 className="text-2xl sm:text-3xl font-serif font-bold text-brand-green">Need a Tailored Contract?</h2>
           <p className="text-brand-charcoal/70 text-sm max-w-lg mx-auto leading-relaxed">
-            We regularly collaborate with specialty tea outlets, hotels, and spice-blending firms to draft unique contract terms and crop procurement schedules. Get in touch with our advisory board.
+            We are trusted tea brokers, connecting tea growers and buyers through reliable sourcing, fair deals, and efficient procurement. Get in touch with our advisory team to discuss your tea requirements.
           </p>
           <div>
             <button
