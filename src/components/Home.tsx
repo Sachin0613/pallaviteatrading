@@ -28,9 +28,9 @@ export default function Home({ onNavigate }: HomeProps) {
   // =========================
   useEffect(() => {
     // -------------------------
-    // AD 1
+    // AD 3 - TOP
     // -------------------------
-     const ad3Container = document.getElementById("ad-3-container");
+    const ad3Container = document.getElementById("ad-3-container");
 
     let adOptionsScript: HTMLScriptElement | null = null;
     let adScript3: HTMLScriptElement | null = null;
@@ -57,9 +57,8 @@ export default function Home({ onNavigate }: HomeProps) {
       ad3Container.appendChild(adScript3);
     }
 
-
     // -------------------------
-    // AD 2
+    // AD 2 - MIDDLE
     // -------------------------
     const ad2Container = document.getElementById("ad-2-container");
 
@@ -75,8 +74,8 @@ export default function Home({ onNavigate }: HomeProps) {
     }
 
     // -------------------------
-    // AD 3
-    //-------------------------
+    // AD 1 - BOTTOM
+    // -------------------------
     const ad1Container = document.getElementById(
       "container-979da485778eb706d423a98516b1e6bc"
     );
@@ -93,7 +92,6 @@ export default function Home({ onNavigate }: HomeProps) {
       ad1Container.appendChild(adScript1);
     }
 
-   
     return () => {
       if (adScript1) adScript1.remove();
       if (adScript2) adScript2.remove();
@@ -143,15 +141,14 @@ export default function Home({ onNavigate }: HomeProps) {
     <div className="w-full">
 
       {/* =====================================================
-          AD 1 - TOP OF PAGE
+          AD 3 - TOP OF PAGE
           ===================================================== */}
-      <section className="w-full bg-white py-4 px-4">
+      <section className="w-full bg-white py-8 px-4">
         <div
-          id="container-979da485778eb706d423a98516b1e6bc"
+          id="ad-3-container"
           className="w-full flex justify-center items-center overflow-hidden"
         />
       </section>
-
 
       {/* =====================================================
           1. HERO SECTION
@@ -239,7 +236,6 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
       </section>
 
-
       {/* =====================================================
           2. ABOUT US PREVIEW
           ===================================================== */}
@@ -280,7 +276,6 @@ export default function Home({ onNavigate }: HomeProps) {
           </div>
         </div>
       </section>
-
 
       {/* =====================================================
           3. TOP TEA GARDENS
@@ -342,16 +337,13 @@ export default function Home({ onNavigate }: HomeProps) {
                     className="snap-start bg-white p-5 rounded-2xl border border-brand-cream shadow-xs hover:border-brand-gold/30 hover:shadow-sm duration-300 flex flex-col justify-between w-full md:w-[calc((100%-20px)/2)] shrink-0 select-text"
                   >
                     <div>
-
                       <div className="flex justify-between items-start mb-3">
-
                         <div className="w-12 h-12 shrink-0 bg-brand-cream rounded-xl flex items-center justify-center text-2xl shadow-inner">
                           {garden.emoji}
                         </div>
 
                         <div className="flex items-center gap-1 text-brand-gold text-[10px] font-bold uppercase tracking-wider bg-brand-cream/40 px-2.5 py-1 rounded-md">
                           <MapPin className="w-3 h-3" />
-
                           <span>{garden.location}</span>
                         </div>
                       </div>
@@ -377,7 +369,6 @@ export default function Home({ onNavigate }: HomeProps) {
                     </div>
 
                     <div className="pt-3.5 border-t border-brand-cream mt-4 flex flex-col gap-2 shrink-0">
-
                       <span className="text-[10px] font-medium text-brand-charcoal/50 italic leading-none">
                         Specialty: {garden.production}
                       </span>
@@ -419,7 +410,6 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
       </section>
 
-
       {/* =====================================================
           AD 2 - MIDDLE OF PAGE
           ===================================================== */}
@@ -429,7 +419,6 @@ export default function Home({ onNavigate }: HomeProps) {
           className="w-full flex justify-center items-center overflow-hidden min-h-[100px]"
         />
       </section>
-
 
       {/* =====================================================
           4. SERVICES PREVIEW
@@ -501,7 +490,6 @@ export default function Home({ onNavigate }: HomeProps) {
           </div>
         </div>
       </section>
-
 
       {/* =====================================================
           5. CONTACT PREVIEW
@@ -601,18 +589,18 @@ export default function Home({ onNavigate }: HomeProps) {
                 </button>
 
               </div>
+
             </div>
           </div>
         </div>
       </section>
 
-
       {/* =====================================================
-          AD 3 - LAST / BOTTOM OF PAGE
+          AD 1 - LAST / BOTTOM OF PAGE
           ===================================================== */}
-      <section className="w-full bg-white py-8 px-4">
+      <section className="w-full bg-white py-4 px-4">
         <div
-          id="ad-3-container"
+          id="container-979da485778eb706d423a98516b1e6bc"
           className="w-full flex justify-center items-center overflow-hidden"
         />
       </section>
