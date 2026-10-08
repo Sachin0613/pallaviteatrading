@@ -76,21 +76,7 @@ export default function Home({ onNavigate }: HomeProps) {
     // -------------------------
     // AD 1 - BOTTOM
     // -------------------------
-    const ad1Container = document.getElementById(
-      "container-979da485778eb706d423a98516b1e6bc"
-    );
-
-    let adScript1: HTMLScriptElement | null = null;
-
-    if (ad1Container) {
-      adScript1 = document.createElement("script");
-      adScript1.async = true;
-      adScript1.setAttribute("data-cfasync", "false");
-      adScript1.src =
-        "https://bicea.org/21/979da485778eb706d423a98516b1e6bc";
-
-      ad1Container.appendChild(adScript1);
-    }
+    
 
     return () => {
       if (adScript1) adScript1.remove();
