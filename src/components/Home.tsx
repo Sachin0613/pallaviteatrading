@@ -30,42 +30,7 @@ export default function Home({ onNavigate }: HomeProps) {
     // -------------------------
     // AD 1
     // -------------------------
-    const ad1Container = document.getElementById(
-      "container-979da485778eb706d423a98516b1e6bc"
-    );
-
-    let adScript1: HTMLScriptElement | null = null;
-
-    if (ad1Container) {
-      adScript1 = document.createElement("script");
-      adScript1.async = true;
-      adScript1.setAttribute("data-cfasync", "false");
-      adScript1.src =
-        "https://bicea.org/21/979da485778eb706d423a98516b1e6bc";
-
-      ad1Container.appendChild(adScript1);
-    }
-
-    // -------------------------
-    // AD 2
-    // -------------------------
-    const ad2Container = document.getElementById("ad-2-container");
-
-    let adScript2: HTMLScriptElement | null = null;
-
-    if (ad2Container) {
-      adScript2 = document.createElement("script");
-      adScript2.async = true;
-      adScript2.src =
-        "https://arwf.org/4/a85b8ace4eb9d958f58be1a7661f078c";
-
-      ad2Container.appendChild(adScript2);
-    }
-
-    // -------------------------
-    // AD 3
-    // -------------------------
-    const ad3Container = document.getElementById("ad-3-container");
+     const ad3Container = document.getElementById("ad-3-container");
 
     let adOptionsScript: HTMLScriptElement | null = null;
     let adScript3: HTMLScriptElement | null = null;
@@ -92,6 +57,43 @@ export default function Home({ onNavigate }: HomeProps) {
       ad3Container.appendChild(adScript3);
     }
 
+
+    // -------------------------
+    // AD 2
+    // -------------------------
+    const ad2Container = document.getElementById("ad-2-container");
+
+    let adScript2: HTMLScriptElement | null = null;
+
+    if (ad2Container) {
+      adScript2 = document.createElement("script");
+      adScript2.async = true;
+      adScript2.src =
+        "https://arwf.org/4/a85b8ace4eb9d958f58be1a7661f078c";
+
+      ad2Container.appendChild(adScript2);
+    }
+
+    // -------------------------
+    // AD 3
+    //-------------------------
+    const ad1Container = document.getElementById(
+      "container-979da485778eb706d423a98516b1e6bc"
+    );
+
+    let adScript1: HTMLScriptElement | null = null;
+
+    if (ad1Container) {
+      adScript1 = document.createElement("script");
+      adScript1.async = true;
+      adScript1.setAttribute("data-cfasync", "false");
+      adScript1.src =
+        "https://bicea.org/21/979da485778eb706d423a98516b1e6bc";
+
+      ad1Container.appendChild(adScript1);
+    }
+
+   
     return () => {
       if (adScript1) adScript1.remove();
       if (adScript2) adScript2.remove();
