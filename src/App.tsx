@@ -21,6 +21,15 @@ const VALID_PAGE_IDS: PageId[] = [
   "contact",
 ];
 
+const getPageFromPath = (pathname: string): PageId => {
+  const normalizedPath = pathname.replace(/\/+$/, "") || "/";
+  const page = VALID_PAGE_IDS.find(
+    (pageId) => (pageId === "home" ? "/" : `/${pageId}`) === normalizedPath
+  );
+
+  return page ?? "home";
+};
+
 class AppErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
   state = { hasError: false };
 
@@ -58,7 +67,9 @@ class AppErrorBoundary extends Component<{ children: ReactNode }, { hasError: bo
 }
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<PageId>("home");
+  const [currentPage, setCurrentPage] = useState<PageId>(() =>
+    getPageFromPath(window.location.pathname)
+  );
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Interactive modal states & Terms of Trade Acceptance tracker
@@ -123,8 +134,31 @@ export default function App() {
     }
   }, []);
 
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentPage(getPageFromPath(window.location.pathname));
+      setMobileMenuOpen(false);
+
+      if (window.location.hash === "#location") {
+        window.setTimeout(() => {
+          document.getElementById("corporate-location-section")?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }, 0);
+      } else {
+        scrollToTop();
+      }
+    };
+
+    handlePopState();
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
   const navigateTo = (page: string) => {
     if (page === "location") {
+      window.history.pushState(null, "", "/contact#location");
       setCurrentPage("contact");
       setMobileMenuOpen(false);
 
@@ -144,6 +178,10 @@ export default function App() {
     }
 
     const safePage = VALID_PAGE_IDS.includes(page as PageId) ? (page as PageId) : "home";
+    const nextPath = safePage === "home" ? "/" : `/${safePage}`;
+    if (window.location.pathname !== nextPath || window.location.hash) {
+      window.history.pushState(null, "", nextPath);
+    }
     setCurrentPage(safePage);
     setMobileMenuOpen(false);
 
