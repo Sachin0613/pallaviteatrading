@@ -48,7 +48,6 @@ export default function Home({ onNavigate }: HomeProps) {
         style={{ backgroundImage: `url(${teawebBg})` }}
       >
         <div className="pointer-events-none absolute inset-0 bg-black/45" />
-
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/65" />
 
         <div className="relative z-10 mx-auto max-w-6xl px-6 py-20 text-center">
@@ -125,22 +124,14 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="grid grid-cols-2 gap-4">
           <div className="rounded-2xl bg-brand-green p-6 text-white">
             <Clock className="h-6 w-6 text-[#D4AF37]" />
-
             <p className="mt-4 font-serif text-3xl font-bold">27+</p>
-
-            <p className="mt-1 text-xs text-white/75">
-              Years of experience
-            </p>
+            <p className="mt-1 text-xs text-white/75">Years of experience</p>
           </div>
 
           <div className="rounded-2xl bg-neutral-100 p-6 text-brand-green">
             <MapPin className="h-6 w-6 text-[#B8860B]" />
-
             <p className="mt-4 font-serif text-3xl font-bold">128</p>
-
-            <p className="mt-1 text-xs text-neutral-600">
-              Associated gardens
-            </p>
+            <p className="mt-1 text-xs text-neutral-600">Associated gardens</p>
           </div>
 
           <div className="col-span-2 rounded-2xl border border-neutral-200 p-6">
