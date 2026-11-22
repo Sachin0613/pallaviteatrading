@@ -1,3 +1,4 @@
+
 import { useRef } from "react";
 import {
   ArrowDown,
@@ -13,7 +14,6 @@ import {
 import { motion } from "motion/react";
 import { SERVICES, TOP_GARDENS } from "../data";
 import type { Garden, PageId, ServiceItem } from "../types";
-import PallaviBrandLogo from "./PallaviBrandLogo";
 import teawebBg from "../images/teaweb.jpg";
 
 interface HomeProps {
@@ -31,7 +31,6 @@ export default function Home({ onNavigate }: HomeProps) {
 
   const scrollGardens = (direction: -1 | 1) => {
     const container = scrollContainerRef.current;
-
     if (container) {
       container.scrollBy({
         left: direction * container.clientWidth,
@@ -40,9 +39,34 @@ export default function Home({ onNavigate }: HomeProps) {
     }
   };
 
+  // Business opportunities
+  const businessOpportunities = [
+    {
+      title: "B2B Tea Sourcing",
+      description:
+        "Connecting tea gardens, manufacturers, wholesalers and bulk buyers through our sourcing network.",
+    },
+    {
+      title: "Private Label Tea",
+      description:
+        "Helping businesses explore their own tea brands through sourcing, blending and packaging solutions.",
+    },
+    {
+      title: "Tea Quality & Valuation",
+      description:
+        "Tea tasting, quality assessment and valuation to support informed buying and selling decisions.",
+    },
+    {
+      title: "Global Tea Trade",
+      description:
+        "Building connections between Indian tea producers and international buyers and distributors.",
+    },
+  ];
+
   return (
     <div className="w-full">
-      {/* Hero Section */}
+
+      {/* HERO SECTION */}
       <section
         className="relative flex min-h-[92vh] items-center justify-center overflow-hidden bg-cover bg-center text-white sm:min-h-screen"
         style={{ backgroundImage: `url(${teawebBg})` }}
@@ -57,11 +81,18 @@ export default function Home({ onNavigate }: HomeProps) {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="flex flex-col items-center rounded-3xl border border-white/10 bg-black/30 px-6 py-10 shadow-2xl backdrop-blur-sm sm:px-12 sm:py-14"
           >
-            <PallaviBrandLogo color="white" />
+            <div className="text-center">
+              <h2 className="font-serif text-5xl font-bold tracking-[0.16em] text-white sm:text-7xl">
+                PALLAVI
+              </h2>
+              <p className="mt-3 text-xs font-bold uppercase tracking-[0.35em] text-[#D4AF37] sm:text-sm">
+                Tea &amp; Trading
+              </p>
+            </div>
 
             <p className="mt-8 max-w-2xl text-sm leading-relaxed text-white/85 sm:text-lg">
-              Connecting Assam&apos;s finest tea gardens with buyers around the
-              world through trusted sourcing and decades of experience.
+              Connecting trusted Assam tea gardens with buyers through
+              careful sourcing, quality evaluation and personal service.
             </p>
 
             <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
@@ -69,8 +100,7 @@ export default function Home({ onNavigate }: HomeProps) {
                 onClick={() => onNavigate("gardens")}
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#D4AF37] px-6 py-3 text-sm font-bold text-black transition-colors hover:bg-[#e2c45c]"
               >
-                Explore Our Gardens
-                <ArrowRight className="h-4 w-4" />
+                Explore Our Gardens <ArrowRight className="h-4 w-4" />
               </button>
 
               <button
@@ -92,7 +122,7 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* ABOUT SECTION */}
       <section
         id="home-about-section"
         className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-2 md:items-center"
@@ -107,17 +137,16 @@ export default function Home({ onNavigate }: HomeProps) {
           </h1>
 
           <p className="mt-5 text-sm leading-relaxed text-neutral-600 sm:text-base">
-            Pallavi Tea &amp; Trading brings producers and buyers together with
-            reliable sourcing, careful quality evaluation, and a deep
-            understanding of the tea trade.
+            Pallavi Tea &amp; Trading helps producers and buyers work
+            together with reliable sourcing, careful quality evaluation
+            and practical knowledge of the tea market.
           </p>
 
           <button
             onClick={() => onNavigate("about")}
             className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-brand-green transition-colors hover:text-[#B8860B]"
           >
-            Discover our story
-            <ArrowRight className="h-4 w-4" />
+            Discover our story <ArrowRight className="h-4 w-4" />
           </button>
         </div>
 
@@ -125,13 +154,17 @@ export default function Home({ onNavigate }: HomeProps) {
           <div className="rounded-2xl bg-brand-green p-6 text-white">
             <Clock className="h-6 w-6 text-[#D4AF37]" />
             <p className="mt-4 font-serif text-3xl font-bold">27+</p>
-            <p className="mt-1 text-xs text-white/75">Years of experience</p>
+            <p className="mt-1 text-xs text-white/75">
+              Years of experience
+            </p>
           </div>
 
           <div className="rounded-2xl bg-neutral-100 p-6 text-brand-green">
             <MapPin className="h-6 w-6 text-[#B8860B]" />
             <p className="mt-4 font-serif text-3xl font-bold">128</p>
-            <p className="mt-1 text-xs text-neutral-600">Associated gardens</p>
+            <p className="mt-1 text-xs text-neutral-600">
+              Associated gardens
+            </p>
           </div>
 
           <div className="col-span-2 rounded-2xl border border-neutral-200 p-6">
@@ -153,9 +186,10 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
       </section>
 
-      {/* Featured Tea Gardens Section */}
+      {/* FEATURED GARDENS */}
       <section className="bg-neutral-50 py-20">
         <div className="mx-auto max-w-6xl px-6">
+
           <div className="flex items-end justify-between gap-4">
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#B8860B]">
@@ -167,8 +201,8 @@ export default function Home({ onNavigate }: HomeProps) {
               </h2>
 
               <p className="mt-2 max-w-xl text-sm text-neutral-600">
-                Discover quality and character from trusted tea partners across
-                Assam.
+                Discover quality and character from trusted tea partners
+                across Assam.
               </p>
             </div>
 
@@ -221,8 +255,7 @@ export default function Home({ onNavigate }: HomeProps) {
                   onClick={() => onNavigate("gardens")}
                   className="mt-5 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-brand-green hover:text-[#B8860B]"
                 >
-                  Explore gardens
-                  <ArrowRight className="h-3.5 w-3.5" />
+                  Explore gardens <ArrowRight className="h-3.5 w-3.5" />
                 </button>
               </article>
             ))}
@@ -232,13 +265,12 @@ export default function Home({ onNavigate }: HomeProps) {
             onClick={() => onNavigate("gardens")}
             className="mt-4 inline-flex items-center gap-2 rounded-full bg-brand-green px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-brown"
           >
-            View all gardens
-            <ArrowRight className="h-4 w-4" />
+            View all gardens <ArrowRight className="h-4 w-4" />
           </button>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* SERVICES SECTION */}
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#B8860B]">
@@ -276,13 +308,61 @@ export default function Home({ onNavigate }: HomeProps) {
             onClick={() => onNavigate("services")}
             className="inline-flex items-center gap-2 text-sm font-bold text-brand-green hover:text-[#B8860B]"
           >
-            See all services
-            <ArrowRight className="h-4 w-4" />
+            See all services <ArrowRight className="h-4 w-4" />
           </button>
         </div>
       </section>
 
-      {/* Contact CTA Section */}
+      {/* BUSINESS OPPORTUNITIES SECTION */}
+      <section className="bg-neutral-50 border-y border-neutral-200 px-6 py-16">
+        <div className="mx-auto max-w-6xl">
+
+          <div className="max-w-2xl">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#B8860B]">
+              Beyond Tea Broking
+            </span>
+
+            <h2 className="mt-2 font-serif text-3xl font-bold text-brand-green">
+              Business Opportunities
+            </h2>
+
+            <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+              Exploring new opportunities across the tea industry while
+              building strong and lasting business relationships.
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {businessOpportunities.map((item) => (
+              <article
+                key={item.title}
+                className="rounded-xl border border-neutral-200 bg-white p-6"
+              >
+                <h3 className="font-serif text-lg font-bold text-brand-green">
+                  {item.title}
+                </h3>
+
+                <p className="mt-3 text-sm leading-relaxed text-neutral-600">
+                  {item.description}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <p className="mt-8 text-sm text-neutral-600">
+            Interested in working with us?{" "}
+            <button
+              onClick={() => onNavigate("contact")}
+              className="font-bold text-brand-green underline underline-offset-4 hover:text-[#B8860B]"
+            >
+              Let's discuss business opportunities.
+            </button>
+          </p>
+
+        </div>
+      </section>
+
+      {/* CONTACT SECTION */}
       <section className="bg-brand-green px-6 py-16 text-center text-white">
         <Mail className="mx-auto h-7 w-7 text-[#D4AF37]" />
 
@@ -300,8 +380,7 @@ export default function Home({ onNavigate }: HomeProps) {
             onClick={() => onNavigate("contact")}
             className="inline-flex items-center justify-center gap-2 rounded-full bg-[#D4AF37] px-6 py-3 text-sm font-bold text-black hover:bg-[#e2c45c]"
           >
-            <Phone className="h-4 w-4" />
-            Contact our team
+            <Phone className="h-4 w-4" /> Contact our team
           </button>
 
           <button
@@ -312,6 +391,7 @@ export default function Home({ onNavigate }: HomeProps) {
           </button>
         </div>
       </section>
+
     </div>
   );
 }
